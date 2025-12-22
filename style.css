@@ -1,20 +1,20 @@
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f7f9fc;
+  background: #f5f7fb;
   color: #222;
 }
 
 header {
-  background: #0A4DA6;
+  background: linear-gradient(90deg, #0A4DA6, #1DB954);
   color: white;
   padding: 20px;
   text-align: center;
 }
 
 .hero {
-  background: #1DB954;
-  color: white;
+  background: #e9f5ff;
   text-align: center;
   padding: 30px 20px;
 }
@@ -22,16 +22,12 @@ header {
 .btn {
   display: inline-block;
   margin: 10px;
-  padding: 12px 20px;
+  padding: 12px 22px;
   background: #0A4DA6;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
   font-weight: bold;
-}
-
-.btn.whatsapp {
-  background: #075E54;
 }
 
 section {
@@ -47,13 +43,9 @@ ul {
 ul li {
   background: white;
   margin: 8px auto;
-  padding: 10px;
-  max-width: 400px;
-  border-radius: 4px;
-}
-
-.areas {
-  background: #eaf4ff;
+  padding: 12px;
+  max-width: 420px;
+  border-radius: 6px;
 }
 
 .contact {
@@ -65,4 +57,24 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+.urdu {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 26px;
+  padding: 14px 16px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
