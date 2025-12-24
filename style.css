@@ -78,3 +78,26 @@ footer {
   text-decoration: none;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  background: linear-gradient(to right, #0b5ed7, #1fa67a);
+  color: white;
+}
+
+.logo {
+  width: 65px;     /* logo chhota */
+  height: auto;
+}
+
+.header-text h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.header-text p {
+  font-size: 13px;
+  margin: 0;
+}
